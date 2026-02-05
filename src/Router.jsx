@@ -11,18 +11,19 @@ const AppRouter = () => {
     <div>
       <h1>App Router</h1>
 
-        <nav>
-            <Link to="/rcomp"> Components  </Link> |{"  "}
-            <Link to="/rpages"> Pages  </Link> |{"  "}
-            <Link to="/rprops"> Props</Link> |{"  "}
-            <Link to="/rform"> Login </Link>
+        <nav >
+            <Link to="/rcomp" style={{ margin: '10px' }}> Components  </Link> 
+            <Link to="/rpages" style={{ margin: '10px' }}> Pages  </Link> 
+            <Link to="/rprops" style={{ margin: '10px' }}> Props</Link> 
+            <Link to="/rform" style={{ margin: '10px' }}> Login </Link>
         </nav>
 
         <Routes>
+            <Route path="/" element={<RComponents/>} />
             <Route path="/rcomp" element={<RComponents />} />
             <Route path="/rpages" element={<RPages />} />
-              <Route path="/rprops" element={<RProps />} />
-              <Route path="/rform" element={ <RForm/>} />
+            <Route path="/rprops" element={<RProps />} />
+            <Route path="/rform" element={ <RForm/>} />
         </Routes>
     </div>
   );

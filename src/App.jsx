@@ -19,50 +19,56 @@ import AppRouter from "./Router";
 
 function App() {
   return (
-    // <>
-    //   {/* Expressions */}
-    //   <Car />
+    <>
+      {/* Expressions */}
+      <Car />
 
-    //   {/* Attributes */}
-    //   <Attributes/>
+      {/* Attributes */}
+      <Attributes/>
 
-    //   {/* Conditions */}
-    //   <Conditions/>
+      {/* Conditions */}
+      <Conditions/>
 
-    //   {/* Component */}
-    //   {/* <Component color="red" /> */}
-    //   <Garage/>
+      {/* Component */}
+      {/* <Component color="red" /> */}
+      <Garage/>
 
-    //   {/* parent-comp & chil-comp */}
-    //   <ParentComp>
-    //     <ChildComp />
-    //   </ParentComp>
+      {/* parent-comp & chil-comp */}
+      <ParentComp>
+        <ChildComp />
+      </ParentComp>
       
-    //   {/* class-comp  */}
-    //   {/* <ClassComp /> */}
-    //   <ClassPropsComp />
-    //   <PropsConstructor />
-    //   <Component2 />
+      {/* class-comp  */}
+      {/* <ClassComp /> */}
+      <ClassPropsComp />
+      <PropsConstructor />
+      <Component2 />
 
-    //   {/* Props */}
-    //   <Props2 />
+      {/* Props */}
+      <Props2 />
       
-    //   {/* Events */}
-    //   <Events />
+      {/* Events */}
+      <Events />
 
-    //   {/* Lists */}
-    //   <Lists/>
+      {/* Lists */}
+      <Lists/>
       
-    //   {/* Forms */}
-    //   <Forms/>
-    // </>
-    <BrowserRouter>
-      <AppRouter/>
-    </BrowserRouter>
-
-  //   <React.StrictMode>
-  //  <AppRoutes/>
-  // </React.StrictMode>
+      {/* Forms */}
+      <Forms/>
+    </>    
+  
   );  
 }
 export default App
+
+
+// import { BrowserRouter } from "react-router-dom";
+// import AppRouter from "./Router";
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       <AppRouter/>
+//     </BrowserRouter>
+//   );  
+// }
+// export default App;
