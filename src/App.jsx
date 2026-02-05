@@ -15,6 +15,7 @@ import Lists from "./pages/Lists";
 import Forms from "./pages/Forms";
 import { BrowserRouter } from "react-router-dom";
 import AppRouter from "./Router";
+import Portals from "./pages/Portals";
 
 
 function App() {
@@ -55,6 +56,10 @@ function App() {
       
       {/* Forms */}
       <Forms/>
+
+      {/* Portals */}
+      <Portals />
+      
     </>    
   
   );  
